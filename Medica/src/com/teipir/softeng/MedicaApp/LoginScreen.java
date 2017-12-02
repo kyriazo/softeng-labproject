@@ -16,8 +16,8 @@ import org.eclipse.swt.events.SelectionEvent;
 public class LoginScreen {
 
 	protected Shell shlMedica;
-	private Text text;
-	private Text text_1;
+	private Text usern;
+	private Text pwd;
 
 	/**
 	 * Launch the application.
@@ -61,27 +61,36 @@ public class LoginScreen {
 		lblNewLabel.setBounds(147, 40, 250, 51);
 		lblNewLabel.setText("\u039A\u03BB\u03B9\u03BD\u03B9\u03BA\u03AE Medica");
 		
-		Button btnNewButton = new Button(shlMedica, SWT.NONE);
-		btnNewButton.setBounds(256, 246, 89, 28);
-		btnNewButton.setText("Login");
+		Button btnLogin = new Button(shlMedica, SWT.NONE);
+		btnLogin.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				shlMedica.setVisible(false);
+				MainScreen ebros = new MainScreen();
+				ebros.Anoikse();
+				
+			}
+		});
+		btnLogin.setBounds(256, 246, 89, 28);
+		btnLogin.setText("Login");
 		
-		Button btnNewButton_1 = new Button(shlMedica, SWT.NONE);
-		btnNewButton_1.addSelectionListener(new SelectionAdapter() {
+		Button btnExit = new Button(shlMedica, SWT.NONE);
+		btnExit.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
 				System.exit(1);
 			}
 		});
-		btnNewButton_1.setBounds(476, 327, 98, 25);
-		btnNewButton_1.setText("Exit");
+		btnExit.setBounds(476, 327, 98, 25);
+		btnExit.setText("Exit");
 		
 		Label lblNewLabel_1 = new Label(shlMedica, SWT.NONE);
 		lblNewLabel_1.setFont(SWTResourceManager.getFont("Segoe UI", 16, SWT.NORMAL));
 		lblNewLabel_1.setBounds(157, 97, 217, 28);
 		lblNewLabel_1.setText("\u0395\u03C6\u03B1\u03C1\u03BC\u03BF\u03B3\u03AE \u0394\u03B9\u03B1\u03C7\u03B5\u03AF\u03C1\u03B9\u03C3\u03B7\u03C2");
 		
-		text = new Text(shlMedica, SWT.BORDER);
-		text.setBounds(241, 156, 104, 21);
+		usern = new Text(shlMedica, SWT.BORDER);
+		usern.setBounds(241, 156, 104, 21);
 		
 		Label lblNewLabel_2 = new Label(shlMedica, SWT.NONE);
 		lblNewLabel_2.setBounds(180, 162, 55, 15);
@@ -91,8 +100,8 @@ public class LoginScreen {
 		lblNewLabel_3.setBounds(180, 194, 55, 15);
 		lblNewLabel_3.setText("Password:");
 		
-		text_1 = new Text(shlMedica, SWT.BORDER | SWT.PASSWORD);
-		text_1.setBounds(241, 191, 104, 21);
+		pwd = new Text(shlMedica, SWT.BORDER | SWT.PASSWORD);
+		pwd.setBounds(241, 191, 104, 21);
 		
 		Button btnHelp = new Button(shlMedica, SWT.NONE);
 		btnHelp.setBounds(10, 327, 67, 25);
