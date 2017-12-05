@@ -17,6 +17,7 @@ public class MainScreen {
 	/**
 	 * Launch the application.
 	 * @param args
+	 * @wbp.parser.entryPoint
 	 */
 	public void Anoikse() {
 		try {
@@ -72,6 +73,13 @@ public class MainScreen {
 		btnNewButton.setText("\u0391\u03BD\u03B1\u03B6\u03AE\u03C4\u03B7\u03C3\u03B7 \u0391\u03C3\u03B8\u03B5\u03BD\u03AE");
 		
 		Button btnNewButton_1 = new Button(shlMedica, SWT.NONE);
+		btnNewButton_1.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				AddPatient neos = new AddPatient();
+				neos.Anoikse();
+			}
+		});
 		btnNewButton_1.setBounds(189, 280, 194, 54);
 		btnNewButton_1.setText("\u039A\u03B1\u03C4\u03B1\u03C7\u03CE\u03C1\u03B9\u03C3\u03B7 \u039D\u03AD\u03BF\u03C5 \u0391\u03C3\u03B8\u03B5\u03BD\u03AE");
 		
