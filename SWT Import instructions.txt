@@ -1,0 +1,10 @@
+#######-----------#######
+
+Follow those steps to import the SWT project and get its libraries working:
+
+1)Make sure the org.eclipse.swt folder is in your workspace.
+2)Inside Eclipse, on the package explorer tab, right click Medica, and chose Import.
+3)Go to General > Existing projects into workspace
+4)Point the root directory tab to org.eclipse.swt and choose the project in the tab below. Click finish.
+5)Right click on Medica again, and choose Build Path > Configure build path
+6)Go to Projects tab, click add, choose the swt project, then Apply and Close.
