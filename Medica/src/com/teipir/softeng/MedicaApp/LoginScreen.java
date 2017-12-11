@@ -65,9 +65,25 @@ public class LoginScreen {
 		btnLogin.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
-				shlMedica.setVisible(false);
-				MainScreen ebros = new MainScreen();
-				ebros.Anoikse();
+
+//				
+				String EnteredUsername = usern.getText(); 
+				//System.out.println(EnteredUsername);
+				
+				String pass= pwd.getText();
+				//String EnteredPassword = new String(pass);
+				//System.out.println(EnteredPassword);
+				
+				dbConnection db = new dbConnection();
+				boolean Flag = db.SignIn(pass,EnteredUsername);
+				if (Flag) {
+					shlMedica.setVisible(false);
+					MainScreen ebros = new MainScreen();
+					ebros.Anoikse();
+										
+				}else {
+					System.err.println("Wrong credentials!");
+				}
 				
 			}
 		});

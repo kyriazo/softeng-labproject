@@ -21,7 +21,7 @@ public class AddPatient {
 	private Text newAmka;
 	private Text newCarrier;
 	private Text newBirthdate;
-	private Text newAdress;
+	private Text newAddress;
 	private Text newTk;
 	private Text newCity;
 	private Text newTelephone;
@@ -186,12 +186,12 @@ public class AddPatient {
 		fd_newBirthdate.bottom = new FormAttachment(lblNewLabel_5, 0, SWT.BOTTOM);
 		newBirthdate.setLayoutData(fd_newBirthdate);
 		
-		newAdress = new Text(shlMedica, SWT.BORDER);
-		FormData fd_newAdress = new FormData();
-		fd_newAdress.right = new FormAttachment(100, -239);
-		fd_newAdress.left = new FormAttachment(lblNewLabel_6, 101);
-		fd_newAdress.top = new FormAttachment(lblNewLabel_6, 0, SWT.TOP);
-		newAdress.setLayoutData(fd_newAdress);
+		newAddress = new Text(shlMedica, SWT.BORDER);
+		FormData fd_newAddress = new FormData();
+		fd_newAddress.right = new FormAttachment(100, -239);
+		fd_newAddress.left = new FormAttachment(lblNewLabel_6, 101);
+		fd_newAddress.top = new FormAttachment(lblNewLabel_6, 0, SWT.TOP);
+		newAddress.setLayoutData(fd_newAddress);
 		
 		newTk = new Text(shlMedica, SWT.BORDER);
 		FormData fd_newTk = new FormData();
@@ -239,7 +239,22 @@ public class AddPatient {
 		btnSave.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
+				
+				String nName = newName.getText();
+				String nSurname = newSurname.getText();
+				String nAMKA = newAmka.getText();
+				String nCarrier = newCarrier.getText();
+				String nBirthdate = newBirthdate.getText();
+				String nAddress = newAddress.getText();
+				String nTK = newTk.getText();
+				String nCity = newCity.getText();
+				String nPhone = newTelephone.getText();
+				
+				
+				dbConnection db = new dbConnection();
+				db.addPatient(nName, nSurname, nAMKA, nCarrier, nBirthdate, nAddress, nTK, nCity, nPhone);
 				shlMedica.close();
+				
 			}
 		});
 		FormData fd_btnSave = new FormData();
