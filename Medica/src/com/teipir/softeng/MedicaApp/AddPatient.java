@@ -60,6 +60,7 @@ public class AddPatient {
 	 */
 	protected void createContents() {
 		shlMedica = new Shell();
+		shlMedica.setImage(SWTResourceManager.getImage("D:\\Desktop\\Finalworkspace\\Medica\\img\\med0000_tm01_rgb01.jpg"));
 		shlMedica.setSize(601, 598);
 		shlMedica.setText("Medica");
 		shlMedica.setLayout(new FormLayout());

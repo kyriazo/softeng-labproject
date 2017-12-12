@@ -3,6 +3,10 @@ package com.teipir.softeng.MedicaApp;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.DateTime;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.Button;
@@ -48,44 +52,49 @@ public class MainScreen {
 	 */
 	protected void createContents() {
 		shlMedica = new Shell();
+		shlMedica.setBackground(SWTResourceManager.getColor(SWT.COLOR_TITLE_BACKGROUND_GRADIENT));
+		shlMedica.setImage(SWTResourceManager.getImage("D:\\Desktop\\Finalworkspace\\Medica\\src\\images\\medicaLogo.jpg"));
 		shlMedica.setSize(601, 501);
 		shlMedica.setText("Medica");
 		
-		DateTime dateTime = new DateTime(shlMedica, SWT.BORDER);
-		dateTime.setBounds(495, 10, 80, 24);
-		
-		Label lblUserTade = new Label(shlMedica, SWT.NONE);
-		lblUserTade.setBounds(10, 10, 55, 15);
-		lblUserTade.setText("User: Tade");
+		Label lblUser = new Label(shlMedica, SWT.NONE);
+		lblUser.setBackground(SWTResourceManager.getColor(SWT.COLOR_TITLE_BACKGROUND_GRADIENT));
+		lblUser.setBounds(10, 10, 124, 15);
+		dbConnection nea = new dbConnection();
+		lblUser.setText("User: " + nea.USER);
 		
 		Label lblMedica = new Label(shlMedica, SWT.NONE);
+		lblMedica.setBackground(SWTResourceManager.getColor(SWT.COLOR_TITLE_BACKGROUND_GRADIENT));
 		lblMedica.setFont(SWTResourceManager.getFont("Segoe UI", 27, SWT.NORMAL));
-		lblMedica.setBounds(158, 29, 252, 67);
+		lblMedica.setBounds(159, 10, 252, 67);
 		lblMedica.setText("\u039A\u03BB\u03B9\u03BD\u03B9\u03BA\u03AE Medica");
 		
-		Label label = new Label(shlMedica, SWT.NONE);
-		label.setFont(SWTResourceManager.getFont("Segoe UI", 16, SWT.NORMAL));
-		label.setBounds(175, 107, 221, 30);
-		label.setText("\u0395\u03C6\u03B1\u03C1\u03BC\u03BF\u03B3\u03AE \u0394\u03B9\u03B1\u03C7\u03B5\u03AF\u03C1\u03B9\u03C3\u03B7\u03C2");
+		Label labelSec = new Label(shlMedica, SWT.NONE);
+		labelSec.setBackground(SWTResourceManager.getColor(SWT.COLOR_TITLE_BACKGROUND_GRADIENT));
+		labelSec.setFont(SWTResourceManager.getFont("Segoe UI", 16, SWT.NORMAL));
+		labelSec.setBounds(169, 70, 221, 30);
+		labelSec.setText("\u0395\u03C6\u03B1\u03C1\u03BC\u03BF\u03B3\u03AE \u0394\u03B9\u03B1\u03C7\u03B5\u03AF\u03C1\u03B9\u03C3\u03B7\u03C2");
 		
-		Button btnNewButton = new Button(shlMedica, SWT.NONE);
-		btnNewButton.setBounds(189, 198, 194, 54);
-		btnNewButton.setText("\u0391\u03BD\u03B1\u03B6\u03AE\u03C4\u03B7\u03C3\u03B7 \u0391\u03C3\u03B8\u03B5\u03BD\u03AE");
+		Button btnSearch = new Button(shlMedica, SWT.NONE);
+		btnSearch.setBounds(180, 324, 194, 36);
+		btnSearch.setText("\u0391\u03BD\u03B1\u03B6\u03AE\u03C4\u03B7\u03C3\u03B7 \u0391\u03C3\u03B8\u03B5\u03BD\u03AE");
 		
-		Button btnNewButton_1 = new Button(shlMedica, SWT.NONE);
-		btnNewButton_1.addSelectionListener(new SelectionAdapter() {
+		Button btnRegister = new Button(shlMedica, SWT.NONE);
+		btnRegister.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
 				AddPatient neos = new AddPatient();
 				neos.Anoikse();
 			}
 		});
-		btnNewButton_1.setBounds(189, 280, 194, 54);
-		btnNewButton_1.setText("\u039A\u03B1\u03C4\u03B1\u03C7\u03CE\u03C1\u03B9\u03C3\u03B7 \u039D\u03AD\u03BF\u03C5 \u0391\u03C3\u03B8\u03B5\u03BD\u03AE");
+		btnRegister.setBounds(180, 381, 194, 36);
+		btnRegister.setText("\u039A\u03B1\u03C4\u03B1\u03C7\u03CE\u03C1\u03B9\u03C3\u03B7 \u039D\u03AD\u03BF\u03C5 \u0391\u03C3\u03B8\u03B5\u03BD\u03AE");
+		
 		
 		Button btnHelp = new Button(shlMedica, SWT.NONE);
 		btnHelp.setBounds(10, 427, 66, 25);
 		btnHelp.setText("Help");
+		
 		
 		Button btnLogout = new Button(shlMedica, SWT.NONE);
 		btnLogout.addSelectionListener(new SelectionAdapter() {
@@ -99,6 +108,22 @@ public class MainScreen {
 		});
 		btnLogout.setBounds(477, 427, 98, 25);
 		btnLogout.setText("Logout");
-
+		
+		//Calculate date
+		
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+		LocalDate localDate = LocalDate.now();
+		String date = dtf.format(localDate); //2016/11/16
+		
+		
+		Label dateLbl = new Label(shlMedica, SWT.NONE);
+		dateLbl.setBackground(SWTResourceManager.getColor(SWT.COLOR_TITLE_BACKGROUND_GRADIENT));
+		dateLbl.setBounds(461, 10, 114, 25);
+		dateLbl.setText("\u0397\u03BC/\u03BD\u03AF\u03B1: "+ date);
+		
+		Label label = new Label(shlMedica, SWT.NONE);
+		label.setImage(SWTResourceManager.getImage("D:\\Desktop\\Finalworkspace\\Medica\\src\\images\\medicaLogoScaled.jpg"));
+		label.setBounds(179, 106, 203, 199);
+		
 	}
 }

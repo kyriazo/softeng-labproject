@@ -19,6 +19,7 @@ public class dbConnection{
 	public static ResultSet rs = null;
 	public static ResultSet rs2 = null;
 	public static java.sql.PreparedStatement pstmt = null;
+	public static String USER;
 
 
 
@@ -53,6 +54,7 @@ public  boolean SignIn (String Password, String User){
 		 
          String user1  = rs.getString("Username");
          String pass = rs.getString("Password");
+         USER = user1;
          
 //         System.out.println(Password);
 //         System.out.println(User);
@@ -67,6 +69,7 @@ public  boolean SignIn (String Password, String User){
      		
 
         	 System.out.println("All good");
+        	 
         	
         	 
         	 return true;
