@@ -26,6 +26,20 @@ import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.widgets.Composite;
 
+
+
+//1)Περασμα μεταβλητης μεταξυ κλασεων
+//2)Ελληνικα στο windowbuilder
+//3)Εικονες στο project
+//
+
+
+//Mε το pmd θα εκτυπωσουμε τα σφαλματα που θα βγαζει και θα διορθωσουμε καποιο/α απο τα σφαλματα και μετα παλι report με το pmd με το σφαλμα διορθωμενο, στο τελευταιο σταδιο
+//για τα ρεπορτσ βαζω checkbox και επειτα κανω generate reports.
+//Αναλυση απαιτησεων απο τεμπλειτ εγγραφο
+//UML διαγραμματα
+//
+
 public class LoginScreen {
 
 	protected Shell shlMedica;

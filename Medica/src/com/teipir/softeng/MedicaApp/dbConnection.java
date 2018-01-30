@@ -138,5 +138,115 @@ public void addPatient(String Name, String Surname,String AMKA,String Carrier,St
 	
 }
 
+public boolean allagi(String x) {
+	int sfalma = 0;
+	try {
+		
+		
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			
+			
+			
+			 con = DriverManager.getConnection(connectionURL,userName,password);
+			 stmt = con.createStatement();
+			if (con != null){
+				System.out.println("Connection with database established!");
+			}
+			
+			} catch (ClassNotFoundException e) {
+			
+			e.printStackTrace();
+		}	
+		
+		//String sql = ("INSERT INTO patientinfo VALUES(" + Name + ","+ Surname + ","+ AMKA + ","+ Carrier + ","+ Birthdate + ","+ Address+ ","+ TK + ","+ City + ","+ Phone")";
+		//stmt.executeUpdate(sql);
+		
+		String SQL = "SELECT * FROM patientinfo WHERE Surname = ?";
+		pstmt = con.prepareStatement(SQL);
+		pstmt.setString(1, x);
+		pstmt.executeQuery(SQL);
+		pstmt.close();
+		
+		while(rs.next()) { 
+			
+			String check = rs.getString("name");
+			
+			if(check == null) {
+				sfalma = 1;
+			}
+			
+			 
+		}
+		
+		
+		
+		
+		
+	} catch (SQLException e1) {
+		// TODO Auto-generated catch block
+		e1.printStackTrace();
+	}
+	if(sfalma == 1) {
+	return true;
+	}else {
+		return false;
+	}
+}
 
+
+public String[] yparxei(String surname, String amka) {
+	
+	String info[] = {"","","","","","","","",""};
+	
+	try {
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			
+			 con = DriverManager.getConnection(connectionURL,userName,password);
+			 stmt = con.createStatement();
+			if (con != null){
+				System.out.println("Connection with database established!");
+			}
+			
+			} catch (ClassNotFoundException e) {
+			
+			e.printStackTrace();
+		}
+		
+		String sql = "SELECT * FROM patientinfo WHERE Surname=?";
+		pstmt = con.prepareStatement(sql);
+		pstmt.setString(1, surname);
+		rs = pstmt.executeQuery();
+		while(rs.next()) {
+			
+			info[0] = rs.getString("Name");
+			info[1] = rs.getString("Surname");
+			info[2] = rs.getString("AMKA");
+			info[3] = rs.getString("Carrier");
+			info[4] = rs.getString("Birthdate");
+			info[5] = rs.getString("Address");
+			info[6] = rs.getString("TK");
+			info[7] = rs.getString("City");
+			info[8] = rs.getString("Phone");
+		
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+	} catch (SQLException e1) {
+		// TODO Auto-generated catch block
+		e1.printStackTrace();
+	}
+	
+	
+	return info;
+	
+	
+}
 }

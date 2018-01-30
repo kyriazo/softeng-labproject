@@ -11,19 +11,21 @@ import org.eclipse.swt.custom.CTabFolder;
 import org.eclipse.swt.custom.CTabItem;
 import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.widgets.Composite;
+import org.eclipse.swt.events.SelectionAdapter;
+import org.eclipse.swt.events.SelectionEvent;
 
 public class SearchPatient {
 
 	protected Shell shlMedica;
-	private Text text;
-	private Text text_1;
-	private Text btnBack;
+	private Text surname;
+	private Text amka;
 
 	/**
 	 * Launch the application.
 	 * @param args
+	 * @wbp.parser.entryPoint
 	 */
-	public static void main(String[] args) {
+	public void Anoikse() {
 		try {
 			SearchPatient window = new SearchPatient();
 			window.open();
@@ -68,11 +70,11 @@ public class SearchPatient {
 		label_1.setBounds(10, 129, 94, 15);
 		label_1.setText("\u0386.\u039C.\u039A.\u0391. \u03B1\u03C3\u03B8\u03B5\u03BD\u03AE:");
 		
-		text = new Text(shlMedica, SWT.BORDER);
-		text.setBounds(110, 94, 146, 21);
+		surname = new Text(shlMedica, SWT.BORDER);
+		surname.setBounds(110, 94, 146, 21);
 		
-		text_1 = new Text(shlMedica, SWT.BORDER);
-		text_1.setBounds(110, 126, 146, 21);
+		amka = new Text(shlMedica, SWT.BORDER);
+		amka.setBounds(110, 126, 146, 21);
 		
 		CTabFolder tabFolder = new CTabFolder(shlMedica, SWT.BORDER);
 		tabFolder.setBounds(10, 201, 819, 330);
@@ -120,41 +122,32 @@ public class SearchPatient {
 		label_3.setBounds(10, 178, 127, 15);
 		label_3.setText("\u03A4\u03B7\u03BB\u03AD\u03C6\u03C9\u03BD\u03BF:");
 		
-		Label lblNewLabel_7 = new Label(composite, SWT.NONE);
-		lblNewLabel_7.setBounds(143, 73, 55, 15);
-		lblNewLabel_7.setText("New Label");
+		Label carrier = new Label(composite, SWT.NONE);
+		carrier.setBounds(143, 73, 55, 15);
 		
-		Label lblNewLabel_8 = new Label(composite, SWT.NONE);
-		lblNewLabel_8.setBounds(143, 10, 55, 15);
-		lblNewLabel_8.setText("New Label");
+		Label name = new Label(composite, SWT.NONE);
+		name.setBounds(143, 10, 55, 15);
 		
-		Label lblNewLabel_9 = new Label(composite, SWT.NONE);
-		lblNewLabel_9.setBounds(143, 31, 55, 15);
-		lblNewLabel_9.setText("New Label");
+		Label sname = new Label(composite, SWT.NONE);
+		sname.setBounds(143, 31, 55, 15);
 		
-		Label lblNewLabel_10 = new Label(composite, SWT.NONE);
-		lblNewLabel_10.setBounds(143, 52, 55, 15);
-		lblNewLabel_10.setText("New Label");
+		Label samka = new Label(composite, SWT.NONE);
+		samka.setBounds(143, 52, 55, 15);
 		
-		Label lblNewLabel_11 = new Label(composite, SWT.NONE);
-		lblNewLabel_11.setBounds(143, 94, 55, 15);
-		lblNewLabel_11.setText("New Label");
+		Label birthday = new Label(composite, SWT.NONE);
+		birthday.setBounds(143, 94, 55, 15);
 		
-		Label lblNewLabel_12 = new Label(composite, SWT.NONE);
-		lblNewLabel_12.setBounds(143, 115, 55, 15);
-		lblNewLabel_12.setText("New Label");
+		Label address = new Label(composite, SWT.NONE);
+		address.setBounds(143, 115, 55, 15);
 		
-		Label lblNewLabel_13 = new Label(composite, SWT.NONE);
-		lblNewLabel_13.setBounds(143, 136, 55, 15);
-		lblNewLabel_13.setText("New Label");
+		Label tk = new Label(composite, SWT.NONE);
+		tk.setBounds(143, 136, 55, 15);
 		
-		Label lblNewLabel_14 = new Label(composite, SWT.NONE);
-		lblNewLabel_14.setBounds(143, 157, 55, 15);
-		lblNewLabel_14.setText("New Label");
+		Label city = new Label(composite, SWT.NONE);
+		city.setBounds(143, 157, 55, 15);
 		
-		Label lblNewLabel_15 = new Label(composite, SWT.NONE);
-		lblNewLabel_15.setBounds(143, 178, 55, 15);
-		lblNewLabel_15.setText("New Label");
+		Label phone = new Label(composite, SWT.NONE);
+		phone.setBounds(143, 178, 55, 15);
 		
 		Button btnEdit = new Button(composite, SWT.NONE);
 		btnEdit.setBounds(10, 242, 172, 25);
@@ -173,16 +166,57 @@ public class SearchPatient {
 		tabItem_2.setControl(composite_2);
 		
 		Button btnSearch = new Button(shlMedica, SWT.NONE);
+		btnSearch.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				
+				
+				tabFolder.setFocus();
+				String epitheto = surname.getText();
+				String amk = amka.getText();
+				dbConnection psakse = new dbConnection();
+				String[] info = psakse.yparxei(epitheto,amk);
+				if(info != null) {
+					
+					name.setText(info[0]);
+					sname.setText(info[1]);
+					samka.setText(info[2]);
+					carrier.setText(info[3]);
+					birthday.setText(info[4]);
+					address.setText(info[5]);
+					tk.setText(info[6]);
+					city.setText(info[7]);
+					phone.setText(info[8]);
+					
+					
+					
+				}
+				
+				
+			}
+		});
 		btnSearch.setBounds(10, 159, 106, 25);
 		btnSearch.setText("\u0391\u03BD\u03B1\u03B6\u03AE\u03C4\u03B7\u03C3\u03B7");
-		
-		btnBack = new Text(shlMedica, SWT.BORDER | SWT.CENTER);
-		btnBack.setText("\u0395\u03C0\u03B9\u03C3\u03C4\u03C1\u03BF\u03C6\u03AE");
-		btnBack.setBounds(774, 10, 101, 25);
 		
 		Button btnHelp = new Button(shlMedica, SWT.NONE);
 		btnHelp.setText("Help");
 		btnHelp.setBounds(800, 41, 75, 25);
+		
+		Button btnReturn = new Button(shlMedica, SWT.NONE);
+		btnReturn.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				shlMedica.close();
+				MainScreen gurise = new MainScreen();
+				gurise.Anoikse();
+				
+			}
+		});
+		btnReturn.setBounds(781, 10, 94, 25);
+		btnReturn.setText("Επιστροφή");
+		shlMedica.setDefaultButton(btnSearch);
 
 	}
+	
+	
 }

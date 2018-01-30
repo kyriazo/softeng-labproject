@@ -76,6 +76,14 @@ public class MainScreen {
 		labelSec.setText("\u0395\u03C6\u03B1\u03C1\u03BC\u03BF\u03B3\u03AE \u0394\u03B9\u03B1\u03C7\u03B5\u03AF\u03C1\u03B9\u03C3\u03B7\u03C2");
 		
 		Button btnSearch = new Button(shlMedica, SWT.NONE);
+		btnSearch.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				SearchPatient psaxe = new SearchPatient();
+				shlMedica.close();
+				psaxe.Anoikse();
+			}
+		});
 		btnSearch.setBounds(180, 324, 194, 36);
 		btnSearch.setText("\u0391\u03BD\u03B1\u03B6\u03AE\u03C4\u03B7\u03C3\u03B7 \u0391\u03C3\u03B8\u03B5\u03BD\u03AE");
 		
