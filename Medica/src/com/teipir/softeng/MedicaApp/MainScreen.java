@@ -23,19 +23,20 @@ public class MainScreen{
 	 * @param args
 	 * @wbp.parser.entryPoint
 	 */
-	public void Anoikse() {
+	public int Anoikse() {
 		try {
 			MainScreen window = new MainScreen();
 			window.open();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		return 1;
 	}
 
 	/**
 	 * Open the window.
 	 */
-	public void open() {
+	public int open() {
 		
 		Display display = Display.getDefault();
 		createContents();
@@ -47,12 +48,14 @@ public class MainScreen{
 				display.sleep();
 			}
 		}
+		return 1;
 	}
 
 	/**
 	 * Create contents of the window.
 	 */
-	protected void createContents() {
+	protected int createContents() {
+		
 		shlMedica = new Shell();
 		shlMedica.setSize(601, 501);
 		shlMedica.setText("Medica");
@@ -84,6 +87,9 @@ public class MainScreen{
 		btnNewButton.setText("\u0391\u03BD\u03B1\u03B6\u03AE\u03C4\u03B7\u03C3\u03B7 \u0391\u03C3\u03B8\u03B5\u03BD\u03AE");
 		
 		Button btnNewButton_1 = new Button(shlMedica, SWT.NONE);
+		if (id == 1) {
+			btnNewButton_1.setVisible(false); 
+		}
 		btnNewButton_1.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
@@ -130,6 +136,8 @@ public class MainScreen{
 		});
 		btnLogout.setBounds(477, 427, 98, 25);
 		btnLogout.setText("Logout");
-
+		
+		return 1;
 	}
+	
 }

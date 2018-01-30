@@ -25,25 +25,28 @@ public class AddPatient {
 	private Text newTk;
 	private Text newCity;
 	private Text newTelephone;
+	private int myvar;
 
+	
 	/**
 	 * Launch the application.
 	 * @param args
 	 * @wbp.parser.entryPoint
 	 */
-	public  void Anoikse() {
+	public int Anoikse() {
 		try {
 			AddPatient window = new AddPatient();
 			window.open();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		return 1;
 	}
 
 	/**
 	 * Open the window.
 	 */
-	public void open() {
+	public int open() {
 		Display display = Display.getDefault();
 		createContents();
 		shlMedica.open();
@@ -53,12 +56,13 @@ public class AddPatient {
 				display.sleep();
 			}
 		}
+		return 1;
 	}
 
 	/**
 	 * Create contents of the window.
 	 */
-	protected void createContents() {
+	protected int createContents() {
 		shlMedica = new Shell();
 		shlMedica.setSize(601, 598);
 		shlMedica.setText("Medica");
@@ -263,6 +267,8 @@ public class AddPatient {
 		fd_btnSave.left = new FormAttachment(100, -345);
 		btnSave.setLayoutData(fd_btnSave);
 		btnSave.setText("\u0391\u03C0\u03BF\u03B8\u03AE\u03BA\u03B5\u03C5\u03C3\u03B7");
-
+		
+		return 1;
 	}
+	
 }

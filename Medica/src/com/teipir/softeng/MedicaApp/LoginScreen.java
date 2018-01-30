@@ -35,7 +35,7 @@ public class LoginScreen {
 	/**
 	 * Open the window.
 	 */
-	public void open() {
+	public int open() {
 		Display display = Display.getDefault();
 		createContents();
 		shlMedica.open();
@@ -45,12 +45,13 @@ public class LoginScreen {
 				display.sleep();
 			}
 		}
+		return 1;
 	}
 
 	/**
 	 * Create contents of the window.
 	 */
-	protected void createContents() {
+	protected int createContents() {
 		shlMedica = new Shell();
 		shlMedica.setSize(600, 401);
 		shlMedica.setText("Medica");
@@ -123,7 +124,7 @@ public class LoginScreen {
 		Button btnHelp = new Button(shlMedica, SWT.NONE);
 		btnHelp.setBounds(10, 327, 67, 25);
 		btnHelp.setText("Help");
-
+		return 1;
 	}
 	
 

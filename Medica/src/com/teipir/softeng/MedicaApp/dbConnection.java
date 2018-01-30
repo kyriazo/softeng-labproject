@@ -21,6 +21,7 @@ public class dbConnection{
 	public static ResultSet rs2 = null;
 	public static ResultSet rs3 = null;
 	public static String thisUsername;
+	public static String thisPassword;
 	public static int userId;
 	public static java.sql.PreparedStatement pstmt = null;
 
@@ -29,7 +30,7 @@ public class dbConnection{
 
 
 
-public  boolean SignIn (String Password, String User){
+public boolean SignIn (String Password, String User){
 	try {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
@@ -140,12 +141,15 @@ public void addPatient(String Name, String Surname,String AMKA,String Carrier,St
 		e1.printStackTrace();
 	}
 	
-
 	
 }
 
 public String getUsername() {
 	return thisUsername;
+}
+
+public String getPassword() {
+	return thisPassword;
 }
 
 public int getId() {
