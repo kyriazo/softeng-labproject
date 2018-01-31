@@ -8,17 +8,20 @@ public class SearchPatientTest {
 
 	@Test
 	public void testMain() {
-		fail("Not yet implemented");
+		SearchPatient tester = new SearchPatient();
+		assertEquals("Result", 1, tester.open());
 	}
 
 	@Test
 	public void testOpen() {
-		fail("Not yet implemented");
+		SearchPatient tester = new SearchPatient();
+		assertEquals("Result", 1, tester.open());
 	}
 
 	@Test
 	public void testCreateContents() {
-		fail("Not yet implemented");
+		SearchPatient tester = new SearchPatient();
+		assertEquals("Result", 1, tester.createContents());
 	}
 
 }

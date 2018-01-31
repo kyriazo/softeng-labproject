@@ -66,11 +66,20 @@ public class MainScreen {
 		dbConnection db = new dbConnection();
 		id = db.getId();
 		
+<<<<<<< HEAD
 		Label lblUser = new Label(shlMedica, SWT.NONE);
 		lblUser.setBackground(SWTResourceManager.getColor(SWT.COLOR_TITLE_BACKGROUND_GRADIENT));
 		lblUser.setBounds(10, 10, 124, 15);
 		dbConnection nea = new dbConnection();
 		lblUser.setText("User: " + nea.USER);
+=======
+		DateTime dateTime = new DateTime(shlMedica, SWT.NONE);
+		dateTime.setBounds(495, 10, 80, 24);
+		
+		Label lblUserTade = new Label(shlMedica, SWT.NONE);
+		lblUserTade.setBounds(10, 10, 55, 15);
+		lblUserTade.setText("User: Tade");
+>>>>>>> f6e13af0f4334e6e509b1ae73a188ef621cd7d1a
 		
 		Label lblMedica = new Label(shlMedica, SWT.NONE);
 		lblMedica.setBackground(SWTResourceManager.getColor(SWT.COLOR_TITLE_BACKGROUND_GRADIENT));
@@ -96,6 +105,7 @@ public class MainScreen {
 		btnSearch.setBounds(180, 324, 194, 36);
 		btnSearch.setText("\u0391\u03BD\u03B1\u03B6\u03AE\u03C4\u03B7\u03C3\u03B7 \u0391\u03C3\u03B8\u03B5\u03BD\u03AE");
 		
+<<<<<<< HEAD
 		Button btnRegister = new Button(shlMedica, SWT.NONE);
 		if(id != 3) {
 			
@@ -112,6 +122,30 @@ public class MainScreen {
 		btnRegister.setBounds(180, 381, 194, 36);
 		btnRegister.setText("\u039A\u03B1\u03C4\u03B1\u03C7\u03CE\u03C1\u03B9\u03C3\u03B7 \u039D\u03AD\u03BF\u03C5 \u0391\u03C3\u03B8\u03B5\u03BD\u03AE");
 		
+=======
+		Button btnSearch = new Button(shlMedica, SWT.NONE);
+		btnSearch.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				shlMedica.close();
+				SearchPatient patient = new SearchPatient();
+				patient.Anoikse();
+			}
+		});
+		btnSearch.setBounds(189, 198, 194, 54);
+		btnSearch.setText("\u0391\u03BD\u03B1\u03B6\u03AE\u03C4\u03B7\u03C3\u03B7 \u0391\u03C3\u03B8\u03B5\u03BD\u03AE");
+		
+		Button btnEntry = new Button(shlMedica, SWT.NONE);
+		btnEntry.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				AddPatient neos = new AddPatient();
+				neos.Anoikse();
+			}
+		});
+		btnEntry.setBounds(189, 280, 194, 54);
+		btnEntry.setText("\u039A\u03B1\u03C4\u03B1\u03C7\u03CE\u03C1\u03B9\u03C3\u03B7 \u039D\u03AD\u03BF\u03C5 \u0391\u03C3\u03B8\u03B5\u03BD\u03AE");
+>>>>>>> f6e13af0f4334e6e509b1ae73a188ef621cd7d1a
 		
 		Button btnHelp = new Button(shlMedica, SWT.NONE);
 		btnHelp.addSelectionListener(new SelectionAdapter() {

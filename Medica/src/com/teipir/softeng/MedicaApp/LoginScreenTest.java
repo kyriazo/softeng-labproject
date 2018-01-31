@@ -20,7 +20,8 @@ public class LoginScreenTest {
 
 	@Test
 	public void testCreateContents() {
-		fail("Not yet implemented");
+		LoginScreen tester = new LoginScreen();
+		assertEquals("Result", 1, tester.createContents());
 	}
 
 }
