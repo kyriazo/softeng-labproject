@@ -20,6 +20,9 @@ public class dbConnection{
 	public static ResultSet rs2 = null;
 	public static java.sql.PreparedStatement pstmt = null;
 	public static String USER;
+	public static String thisUsername;
+	public static String thisPassword;
+	public static int userId;
 
 
 
@@ -54,7 +57,8 @@ public  boolean SignIn (String Password, String User){
 		 
          String user1  = rs.getString("Username");
          String pass = rs.getString("Password");
-         USER = user1;
+         int id = rs.getInt("ID");
+         
          
 //         System.out.println(Password);
 //         System.out.println(User);
@@ -65,7 +69,8 @@ public  boolean SignIn (String Password, String User){
          
          if(pass.equals(Password) && user1.equals(User))
          {
-        	
+        	 USER = user1;
+        	 userId = id;
      		
 
         	 System.out.println("All good");
@@ -86,7 +91,7 @@ public  boolean SignIn (String Password, String User){
 }
 
 
-public void addPatient(String Name, String Surname,String AMKA,String Carrier,String Birthdate,String Address,String TK,String City,String Phone ) {
+public void addPatient(String name, String surname,String amka,String carrier,String birthdate,String address,String tk,String city,String phone ) {
 	try {
 		
 	
@@ -111,15 +116,15 @@ public void addPatient(String Name, String Surname,String AMKA,String Carrier,St
 		
 		String SQL = "INSERT INTO patientinfo VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
 		pstmt = con.prepareStatement(SQL);
-		pstmt.setString(1, Name);
-		pstmt.setString(2, Surname);
-		pstmt.setString(3, AMKA);
-		pstmt.setString(4, Carrier);
-		pstmt.setString(5, Birthdate);
-		pstmt.setString(6, Address);
-		pstmt.setString(7, TK);
-		pstmt.setString(8, City);
-		pstmt.setString(9, Phone);
+		pstmt.setString(1, name);
+		pstmt.setString(2, surname);
+		pstmt.setString(3, amka);
+		pstmt.setString(4, carrier);
+		pstmt.setString(5, birthdate);
+		pstmt.setString(6, address);
+		pstmt.setString(7, tk);
+		pstmt.setString(8, city);
+		pstmt.setString(9, phone);
 		pstmt.executeUpdate();
 		pstmt.close();
 		
@@ -137,6 +142,23 @@ public void addPatient(String Name, String Surname,String AMKA,String Carrier,St
 	
 	
 }
+
+public String getUsername() {
+	return thisUsername;
+}
+
+public String getPassword() {
+	
+	return thisPassword;
+	
+}
+
+public int getId() {
+	
+	return userId;
+	
+}
+
 
 public boolean allagi(String x) {
 	int sfalma = 0;
@@ -214,9 +236,10 @@ public String[] yparxei(String surname, String amka) {
 			e.printStackTrace();
 		}
 		
-		String sql = "SELECT * FROM patientinfo WHERE Surname=?";
+		String sql = "SELECT * FROM patientinfo WHERE Surname=? OR AMKA =?";
 		pstmt = con.prepareStatement(sql);
 		pstmt.setString(1, surname);
+		pstmt.setString(2, amka);
 		rs = pstmt.executeQuery();
 		while(rs.next()) {
 			

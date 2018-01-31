@@ -5,47 +5,22 @@ import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.MessageBox;
 
-import java.awt.Image;
-import java.awt.Toolkit;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
-import java.net.URL;
-
-import javax.imageio.ImageIO;
-import javax.swing.ImageIcon;
-
 import org.eclipse.swt.SWT;
-import org.eclipse.swt.layout.GridLayout;
 import org.eclipse.swt.widgets.Button;
-import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.widgets.Text;
-import org.eclipse.swt.widgets.DateTime;
 import org.eclipse.wb.swt.SWTResourceManager;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
-import org.eclipse.swt.widgets.Composite;
 
 
 
-//1)Περασμα μεταβλητης μεταξυ κλασεων
-//2)Ελληνικα στο windowbuilder
-//3)Εικονες στο project
-//
-
-
-//Mε το pmd θα εκτυπωσουμε τα σφαλματα που θα βγαζει και θα διορθωσουμε καποιο/α απο τα σφαλματα και μετα παλι report με το pmd με το σφαλμα διορθωμενο, στο τελευταιο σταδιο
-//για τα ρεπορτσ βαζω checkbox και επειτα κανω generate reports.
-//Αναλυση απαιτησεων απο τεμπλειτ εγγραφο
-//UML διαγραμματα
-//
 
 public class LoginScreen {
 
 	protected Shell shlMedica;
 	private Text usern;
 	private Text pwd;
-
+	private int id;
 	/**
 	 * Launch the application.
 	 * @param args
@@ -57,12 +32,13 @@ public class LoginScreen {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		
 	}
 
 	/**
 	 * Open the window.
 	 */
-	public void open() {
+	public int open() {
 		Display display = Display.getDefault();
 		createContents();
 		shlMedica.open();
@@ -72,18 +48,22 @@ public class LoginScreen {
 				display.sleep();
 			}
 		}
+		
+		return 1;
 	}
 
 	/**
 	 * Create contents of the window.
 	 */
-	protected void createContents() {
+	protected int createContents() {
 		shlMedica = new Shell();
 		shlMedica.setBackground(SWTResourceManager.getColor(SWT.COLOR_TITLE_BACKGROUND_GRADIENT));
-		shlMedica.setImage(SWTResourceManager.getImage("D:\\Desktop\\Finalworkspace\\Medica\\img\\med0000_tm01_rgb01.jpg"));
+		shlMedica.setImage(SWTResourceManager.getImage(LoginScreen.class, "/images/medicaLogoScaled.jpg"));
 		shlMedica.setSize(600, 483);
 		shlMedica.setText("Medica");
 		shlMedica.setLayout(null);
+		dbConnection db = new dbConnection();
+		id = db.getId();
 		
 		Label lblNewLabel = new Label(shlMedica, SWT.NONE);
 		lblNewLabel.setBackground(SWTResourceManager.getColor(SWT.COLOR_TITLE_BACKGROUND_GRADIENT));
@@ -162,6 +142,26 @@ public class LoginScreen {
 		pwd.setBounds(249, 345, 104, 21);
 		
 		Button btnHelp = new Button(shlMedica, SWT.NONE);
+		btnHelp.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+			
+			
+				if(id==1) {
+					DoctorHelp helpForDoc = new DoctorHelp();
+					helpForDoc.open();
+					
+				}else if(id==2) {
+					NurseHelp helpForDoc = new NurseHelp();
+					helpForDoc.open();
+					
+				}else if(id==3) {
+					BureauHelp helpForDoc = new BureauHelp();
+					helpForDoc.open();
+				}
+				
+			}
+		});
 		btnHelp.setBounds(10, 409, 67, 25);
 		btnHelp.setText("Help");
 		
@@ -170,8 +170,10 @@ public class LoginScreen {
 		
 		
 		Label lblImage = new Label(shlMedica, SWT.NONE);
-		lblImage.setImage(SWTResourceManager.getImage("D:\\Desktop\\Finalworkspace\\Medica\\src\\images\\medicaLogoScaled.jpg"));
+		lblImage.setImage(SWTResourceManager.getImage(LoginScreen.class, "/images/medicaLogoScaled.jpg"));
 		lblImage.setBounds(177, 101, 203, 203);
 		usern.setFocus();
+		
+		return 1;
 	}
 }

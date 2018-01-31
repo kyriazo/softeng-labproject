@@ -1,0 +1,737 @@
+src/com/teipir/softeng/MedicaApp/AddPatient.java:1:	Package name contains upper case characters
+src/com/teipir/softeng/MedicaApp/AddPatient.java:20:	Each class should declare at least one constructor
+src/com/teipir/softeng/MedicaApp/AddPatient.java:20:	The class 'AddPatient' has a Cyclomatic Complexity of 7 (Highest = 16).
+src/com/teipir/softeng/MedicaApp/AddPatient.java:20:	headerCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/AddPatient.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:22:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/AddPatient.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:23:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/AddPatient.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:24:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/AddPatient.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:25:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/AddPatient.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:26:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/AddPatient.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:27:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/AddPatient.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:28:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/AddPatient.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:29:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/AddPatient.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:30:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/AddPatient.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:31:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/AddPatient.java:32:	Avoid variables with short names like id
+src/com/teipir/softeng/MedicaApp/AddPatient.java:32:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:32:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/AddPatient.java:39:	Method names should not start with capital letters
+src/com/teipir/softeng/MedicaApp/AddPatient.java:41:	Local variable 'window' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:43:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/teipir/softeng/MedicaApp/AddPatient.java:44:	Avoid printStackTrace(); use a logger call instead.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:54:	Found 'DU'-anomaly for variable 'display' (lines '54'-'65').
+src/com/teipir/softeng/MedicaApp/AddPatient.java:54:	Local variable 'display' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:59:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/AddPatient.java:60:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/AddPatient.java:70:	Avoid really long methods.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:70:	The method 'createContents' has a Cyclomatic Complexity of 16.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:70:	The method createContents() has an NCSS line count of 174
+src/com/teipir/softeng/MedicaApp/AddPatient.java:77:	Avoid variables with short names like db
+src/com/teipir/softeng/MedicaApp/AddPatient.java:77:	Local variable 'db' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:80:	Local variable 'lblNewLabel' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:82:	The String literal "Segoe UI" appears 10 times in this file; the first occurrence is on line 82
+src/com/teipir/softeng/MedicaApp/AddPatient.java:83:	Local variable 'fd_lblNewLabel' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:83:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_lblNewLabel' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:89:	Local variable 'lblName' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:92:	Local variable 'fd_lblName' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:92:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_lblName' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:98:	Local variable 'lblSurname' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:101:	Local variable 'fd_lblSurname' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:101:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_lblSurname' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:107:	Local variable 'lblAmka' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:110:	Local variable 'fd_lblAmka' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:110:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_lblAmka' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:116:	Local variable 'lblCarrier' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:119:	Local variable 'fd_lblCarrier' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:119:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_lblCarrier' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:125:	Local variable 'lblBirthday' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:128:	Local variable 'fd_lblBirthday' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:128:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_lblBirthday' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:134:	Local variable 'lblAddress' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:137:	Local variable 'fd_lblAddress' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:137:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_lblAddress' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:143:	Local variable 'lblTk' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:146:	Local variable 'fd_lblTk' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:146:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_lblTk' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:152:	Local variable 'lblCity' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:155:	Local variable 'fd_lblCity' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:155:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_lblCity' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:161:	Local variable 'lblPhone' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:164:	Local variable 'fd_lblPhone' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:164:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_lblPhone' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:170:	Local variable 'label' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:172:	Local variable 'fd_label' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:172:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_label' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:179:	Local variable 'fd_newName' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:179:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_newName' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:186:	Local variable 'fd_newSurname' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:186:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_newSurname' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:193:	Local variable 'fd_newAmka' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:193:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_newAmka' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:200:	Local variable 'fd_newCarrier' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:200:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_newCarrier' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:207:	Local variable 'fd_newBirthdate' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:207:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_newBirthdate' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:214:	Local variable 'fd_newAddress' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:214:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_newAddress' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:221:	Local variable 'fd_newTk' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:221:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_newTk' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:228:	Local variable 'fd_newCity' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:228:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_newCity' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:235:	Local variable 'fd_newTelephone' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:235:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_newTelephone' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:241:	Local variable 'btnHelp' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:244:	Parameter 'arg0' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:244:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/AddPatient.java:246:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/AddPatient.java:246:	Avoid using Literals in Conditional Statements
+src/com/teipir/softeng/MedicaApp/AddPatient.java:247:	Local variable 'helpForDoc' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:250:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/AddPatient.java:250:	Avoid using Literals in Conditional Statements
+src/com/teipir/softeng/MedicaApp/AddPatient.java:251:	Local variable 'helpForDoc' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:254:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/AddPatient.java:254:	Avoid using Literals in Conditional Statements
+src/com/teipir/softeng/MedicaApp/AddPatient.java:255:	Local variable 'helpForDoc' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:262:	Local variable 'fd_btnHelp' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:262:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_btnHelp' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:268:	Local variable 'btnCancel' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:271:	Avoid variables with short names like e
+src/com/teipir/softeng/MedicaApp/AddPatient.java:271:	Parameter 'e' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:271:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/AddPatient.java:275:	Local variable 'fd_btnCancel' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:275:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_btnCancel' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:282:	Local variable 'btnSave' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:285:	Avoid variables with short names like e
+src/com/teipir/softeng/MedicaApp/AddPatient.java:285:	Parameter 'e' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:285:	The method 'widgetSelected' has a Cyclomatic Complexity of 10.
+src/com/teipir/softeng/MedicaApp/AddPatient.java:285:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/AddPatient.java:287:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/AddPatient.java:287:	Local variable 'nName' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:288:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/AddPatient.java:288:	Local variable 'nSurname' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:289:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/AddPatient.java:289:	Local variable 'nAMKA' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:290:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/AddPatient.java:290:	Local variable 'nCarrier' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:291:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/AddPatient.java:291:	Local variable 'nBirthdate' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:292:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/AddPatient.java:292:	Local variable 'nAddress' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:293:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/AddPatient.java:293:	Local variable 'nTK' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:294:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/AddPatient.java:294:	Local variable 'nCity' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:295:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/AddPatient.java:295:	Local variable 'nPhone' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:299:	Avoid if (x != y) ..; else ..;
+src/com/teipir/softeng/MedicaApp/AddPatient.java:299:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/AddPatient.java:299:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/AddPatient.java:299:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/AddPatient.java:299:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/AddPatient.java:299:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/AddPatient.java:299:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/AddPatient.java:299:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/AddPatient.java:299:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/AddPatient.java:299:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/AddPatient.java:300:	Avoid variables with short names like db
+src/com/teipir/softeng/MedicaApp/AddPatient.java:300:	Local variable 'db' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:306:	Local variable 'dialog' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:314:	Local variable 'fd_btnSave' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatient.java:314:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fd_btnSave' is not final.
+src/com/teipir/softeng/MedicaApp/AddPatientTest.java:1:	Package name contains upper case characters
+src/com/teipir/softeng/MedicaApp/AddPatientTest.java:4:	Avoid duplicate imports such as 'org.junit.Assert.assertEquals'
+src/com/teipir/softeng/MedicaApp/AddPatientTest.java:5:	Avoid unused imports such as 'org.junit.AfterClass'
+src/com/teipir/softeng/MedicaApp/AddPatientTest.java:6:	Avoid unused imports such as 'org.junit.BeforeClass'
+src/com/teipir/softeng/MedicaApp/AddPatientTest.java:7:	Avoid duplicate imports such as 'org.junit.Test'
+src/com/teipir/softeng/MedicaApp/AddPatientTest.java:9:	Avoid duplicate imports such as 'org.junit.Assert'
+src/com/teipir/softeng/MedicaApp/AddPatientTest.java:11:	Avoid duplicate imports such as 'org.junit.Test'
+src/com/teipir/softeng/MedicaApp/AddPatientTest.java:13:	Each class should declare at least one constructor
+src/com/teipir/softeng/MedicaApp/AddPatientTest.java:13:	headerCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/AddPatientTest.java:16:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/AddPatientTest.java:17:	Local variable 'tester' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatientTest.java:23:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/AddPatientTest.java:24:	Local variable 'tester' could be declared final
+src/com/teipir/softeng/MedicaApp/AddPatientTest.java:29:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/AddPatientTest.java:30:	Local variable 'tester' could be declared final
+src/com/teipir/softeng/MedicaApp/BureauHelp.java:1:	Package name contains upper case characters
+src/com/teipir/softeng/MedicaApp/BureauHelp.java:9:	headerCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/BureauHelp.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/BureauHelp.java:11:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/BureauHelp.java:17:	Parameter 'args' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/BureauHelp.java:19:	Local variable 'window' could be declared final
+src/com/teipir/softeng/MedicaApp/BureauHelp.java:21:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/teipir/softeng/MedicaApp/BureauHelp.java:22:	Avoid printStackTrace(); use a logger call instead.
+src/com/teipir/softeng/MedicaApp/BureauHelp.java:30:	Found 'DU'-anomaly for variable 'display' (lines '30'-'39').
+src/com/teipir/softeng/MedicaApp/BureauHelp.java:30:	Local variable 'display' could be declared final
+src/com/teipir/softeng/MedicaApp/BureauHelp.java:35:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/BureauHelp.java:36:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/BureauHelp.java:50:	Local variable 'label' could be declared final
+src/com/teipir/softeng/MedicaApp/DoctorHelp.java:1:	Package name contains upper case characters
+src/com/teipir/softeng/MedicaApp/DoctorHelp.java:8:	headerCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/DoctorHelp.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/DoctorHelp.java:10:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/DoctorHelp.java:16:	Parameter 'args' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/DoctorHelp.java:18:	Local variable 'window' could be declared final
+src/com/teipir/softeng/MedicaApp/DoctorHelp.java:20:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/teipir/softeng/MedicaApp/DoctorHelp.java:21:	Avoid printStackTrace(); use a logger call instead.
+src/com/teipir/softeng/MedicaApp/DoctorHelp.java:29:	Found 'DU'-anomaly for variable 'display' (lines '29'-'38').
+src/com/teipir/softeng/MedicaApp/DoctorHelp.java:29:	Local variable 'display' could be declared final
+src/com/teipir/softeng/MedicaApp/DoctorHelp.java:34:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/DoctorHelp.java:35:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/DoctorHelp.java:49:	Local variable 'label' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:1:	Package name contains upper case characters
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:8:	Avoid unused imports such as 'java.awt.Image'
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:9:	Avoid unused imports such as 'java.awt.Toolkit'
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:10:	Avoid unused imports such as 'java.awt.image.BufferedImage'
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:11:	Avoid unused imports such as 'java.io.File'
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:12:	Avoid unused imports such as 'java.io.IOException'
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:13:	Avoid unused imports such as 'java.net.URL'
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:15:	Avoid unused imports such as 'javax.imageio.ImageIO'
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:16:	Avoid unused imports such as 'javax.swing.ImageIcon'
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:19:	Avoid unused imports such as 'org.eclipse.swt.layout.GridLayout'
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:21:	Avoid unused imports such as 'org.eclipse.swt.layout.GridData'
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:23:	Avoid unused imports such as 'org.eclipse.swt.widgets.DateTime'
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:27:	Avoid unused imports such as 'org.eclipse.swt.widgets.Composite'
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:32:	headerCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:34:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:35:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:35:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:36:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:36:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:37:	Avoid variables with short names like id
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:37:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:42:	Parameter 'args' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:44:	Local variable 'window' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:46:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:47:	Avoid printStackTrace(); use a logger call instead.
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:56:	Found 'DU'-anomaly for variable 'display' (lines '56'-'67').
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:56:	Local variable 'display' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:61:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:62:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:72:	Avoid really long methods.
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:79:	Avoid variables with short names like db
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:79:	Local variable 'db' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:82:	Local variable 'lblNewLabel' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:88:	Local variable 'btnLogin' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:91:	Avoid variables with short names like e
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:91:	Parameter 'e' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:91:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:94:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:94:	Local variable 'EnteredUsername' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:94:	Variables should start with a lowercase character, 'EnteredUsername' starts with uppercase character.
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:97:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:97:	Local variable 'pass' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:101:	Avoid variables with short names like db
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:101:	Local variable 'db' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:102:	Local variable 'Flag' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:102:	Variables should start with a lowercase character, 'Flag' starts with uppercase character.
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:105:	Local variable 'ebros' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:109:	Local variable 'dialog' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:116:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:117:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:118:	System.err.println is used
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:126:	Local variable 'btnExit' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:129:	Avoid variables with short names like e
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:129:	Parameter 'e' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:129:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:130:	System.exit() should not be used in J2EE/JEE apps
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:136:	Local variable 'lblNewLabel_1' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:136:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lblNewLabel_1' is not final.
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:145:	Local variable 'lblNewLabel_2' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:145:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lblNewLabel_2' is not final.
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:150:	Local variable 'lblNewLabel_3' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:150:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lblNewLabel_3' is not final.
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:158:	Local variable 'btnHelp' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:161:	Avoid variables with short names like e
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:161:	Parameter 'e' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:161:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:164:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:164:	Avoid using Literals in Conditional Statements
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:165:	Local variable 'helpForDoc' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:168:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:168:	Avoid using Literals in Conditional Statements
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:169:	Local variable 'helpForDoc' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:172:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:172:	Avoid using Literals in Conditional Statements
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:173:	Local variable 'helpForDoc' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreen.java:186:	Local variable 'lblImage' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreenTest.java:1:	Package name contains upper case characters
+src/com/teipir/softeng/MedicaApp/LoginScreenTest.java:7:	Each class should declare at least one constructor
+src/com/teipir/softeng/MedicaApp/LoginScreenTest.java:7:	headerCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/LoginScreenTest.java:10:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/LoginScreenTest.java:11:	Local variable 'tester' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreenTest.java:16:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/LoginScreenTest.java:17:	Local variable 'tester' could be declared final
+src/com/teipir/softeng/MedicaApp/LoginScreenTest.java:22:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/MainScreen.java:1:	Package name contains upper case characters
+src/com/teipir/softeng/MedicaApp/MainScreen.java:5:	Avoid unused imports such as 'org.eclipse.swt.widgets.DateTime'
+src/com/teipir/softeng/MedicaApp/MainScreen.java:19:	Each class should declare at least one constructor
+src/com/teipir/softeng/MedicaApp/MainScreen.java:19:	headerCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/MainScreen.java:22:	Avoid variables with short names like id
+src/com/teipir/softeng/MedicaApp/MainScreen.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/MainScreen.java:22:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/MainScreen.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/MainScreen.java:23:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/MainScreen.java:30:	Method names should not start with capital letters
+src/com/teipir/softeng/MedicaApp/MainScreen.java:32:	Local variable 'window' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:34:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/teipir/softeng/MedicaApp/MainScreen.java:35:	Avoid printStackTrace(); use a logger call instead.
+src/com/teipir/softeng/MedicaApp/MainScreen.java:44:	Found 'DU'-anomaly for variable 'display' (lines '44'-'55').
+src/com/teipir/softeng/MedicaApp/MainScreen.java:44:	Local variable 'display' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:49:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/MainScreen.java:50:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/MainScreen.java:60:	Avoid really long methods.
+src/com/teipir/softeng/MedicaApp/MainScreen.java:66:	Avoid variables with short names like db
+src/com/teipir/softeng/MedicaApp/MainScreen.java:66:	Local variable 'db' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:69:	Local variable 'lblUser' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:72:	Local variable 'nea' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:75:	Local variable 'lblMedica' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:81:	Local variable 'labelSec' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:87:	Local variable 'btnSearch' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:90:	Avoid variables with short names like e
+src/com/teipir/softeng/MedicaApp/MainScreen.java:90:	Parameter 'e' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:90:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/MainScreen.java:91:	Local variable 'psaxe' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:99:	Local variable 'btnRegister' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:100:	Avoid using Literals in Conditional Statements
+src/com/teipir/softeng/MedicaApp/MainScreen.java:107:	Avoid variables with short names like e
+src/com/teipir/softeng/MedicaApp/MainScreen.java:107:	Parameter 'e' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:107:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/MainScreen.java:108:	Local variable 'neos' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:116:	Local variable 'btnHelp' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:119:	Avoid variables with short names like e
+src/com/teipir/softeng/MedicaApp/MainScreen.java:119:	Parameter 'e' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:119:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/MainScreen.java:121:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/MainScreen.java:121:	Avoid using Literals in Conditional Statements
+src/com/teipir/softeng/MedicaApp/MainScreen.java:122:	Local variable 'helpForDoc' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:125:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/MainScreen.java:125:	Avoid using Literals in Conditional Statements
+src/com/teipir/softeng/MedicaApp/MainScreen.java:126:	Local variable 'helpForDoc' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:129:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/MainScreen.java:129:	Avoid using Literals in Conditional Statements
+src/com/teipir/softeng/MedicaApp/MainScreen.java:130:	Local variable 'helpForDoc' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:140:	Local variable 'btnLogout' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:143:	Avoid variables with short names like e
+src/com/teipir/softeng/MedicaApp/MainScreen.java:143:	Parameter 'e' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:143:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/MainScreen.java:145:	Local variable 'piso' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:155:	Local variable 'dtf' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:156:	Local variable 'localDate' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:157:	Local variable 'date' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:157:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/MainScreen.java:160:	Local variable 'dateLbl' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreen.java:165:	Local variable 'label' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreenTest.java:1:	Package name contains upper case characters
+src/com/teipir/softeng/MedicaApp/MainScreenTest.java:7:	Each class should declare at least one constructor
+src/com/teipir/softeng/MedicaApp/MainScreenTest.java:7:	headerCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/MainScreenTest.java:10:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/MainScreenTest.java:11:	Local variable 'tester' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreenTest.java:16:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/MainScreenTest.java:17:	Local variable 'tester' could be declared final
+src/com/teipir/softeng/MedicaApp/MainScreenTest.java:23:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/MainScreenTest.java:24:	Local variable 'tester' could be declared final
+src/com/teipir/softeng/MedicaApp/NurseHelp.java:1:	Package name contains upper case characters
+src/com/teipir/softeng/MedicaApp/NurseHelp.java:9:	headerCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/NurseHelp.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/NurseHelp.java:11:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/NurseHelp.java:17:	Parameter 'args' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/NurseHelp.java:19:	Local variable 'window' could be declared final
+src/com/teipir/softeng/MedicaApp/NurseHelp.java:21:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/teipir/softeng/MedicaApp/NurseHelp.java:22:	Avoid printStackTrace(); use a logger call instead.
+src/com/teipir/softeng/MedicaApp/NurseHelp.java:30:	Found 'DU'-anomaly for variable 'display' (lines '30'-'39').
+src/com/teipir/softeng/MedicaApp/NurseHelp.java:30:	Local variable 'display' could be declared final
+src/com/teipir/softeng/MedicaApp/NurseHelp.java:35:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/NurseHelp.java:36:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/NurseHelp.java:50:	Local variable 'label' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:1:	Package name contains upper case characters
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:16:	Each class should declare at least one constructor
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:16:	The class 'SearchPatient' has a Cyclomatic Complexity of 5 (Highest = 10).
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:16:	The class 'SearchPatient' has a Modified Cyclomatic Complexity of 5 (Highest = 10).
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:16:	The class 'SearchPatient' has a Standard Cyclomatic Complexity of 5 (Highest = 10).
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:16:	headerCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:18:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:19:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:20:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:21:	Avoid variables with short names like id
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:21:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:28:	Method names should not start with capital letters
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:30:	Local variable 'window' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:32:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:33:	Avoid printStackTrace(); use a logger call instead.
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:43:	Found 'DU'-anomaly for variable 'display' (lines '43'-'54').
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:43:	Local variable 'display' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:48:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:49:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:59:	Avoid really long methods.
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:59:	The method 'createContents' has a Cyclomatic Complexity of 10.
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:59:	The method 'createContents' has a Modified Cyclomatic Complexity of 10.
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:59:	The method 'createContents' has a Standard Cyclomatic Complexity of 10.
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:59:	The method createContents() has an NCSS line count of 109
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:65:	Avoid variables with short names like db
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:65:	Local variable 'db' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:68:	Local variable 'lblMedica' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:74:	Local variable 'label' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:79:	Local variable 'label_1' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:79:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'label_1' is not final.
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:90:	Local variable 'tabFolder' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:93:	Potential violation of Law of Demeter (method chain calls)
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:93:	Potential violation of Law of Demeter (method chain calls)
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:95:	Local variable 'tabItem' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:98:	Local variable 'composite' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:101:	Local variable 'lblName' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:105:	Local variable 'lblSurname' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:109:	Local variable 'lblAmka' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:113:	Local variable 'lblCarrier' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:117:	Local variable 'lblBirthday' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:121:	Local variable 'lblAddress' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:125:	Local variable 'lblTk' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:129:	Local variable 'lblCity' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:133:	Local variable 'lblPhone' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:137:	Local variable 'carrier' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:140:	Local variable 'name' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:143:	Local variable 'sname' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:146:	Local variable 'samka' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:149:	Local variable 'birthday' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:152:	Local variable 'address' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:155:	Avoid variables with short names like tk
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:155:	Local variable 'tk' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:158:	Local variable 'city' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:161:	Local variable 'phone' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:164:	Local variable 'btnEdit' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:165:	Avoid using Literals in Conditional Statements
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:172:	Avoid variables with short names like e
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:172:	Document empty method body
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:172:	Parameter 'e' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:172:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:178:	Local variable 'tabItem_1' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:178:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tabItem_1' is not final.
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:181:	Local variable 'composite_1' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:181:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'composite_1' is not final.
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:184:	Local variable 'tabItem_2' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:184:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tabItem_2' is not final.
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:187:	Local variable 'composite_2' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:187:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'composite_2' is not final.
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:190:	Local variable 'btnGetCheckup' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:194:	Local variable 'btnSearch' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:197:	Avoid variables with short names like e
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:197:	Parameter 'e' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:197:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:201:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:201:	Local variable 'epitheto' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:202:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:202:	Local variable 'amk' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:203:	Local variable 'psakse' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:204:	Local variable 'info' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:207:	Potential violation of Law of Demeter (method chain calls)
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:208:	Potential violation of Law of Demeter (method chain calls)
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:209:	Potential violation of Law of Demeter (method chain calls)
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:210:	Potential violation of Law of Demeter (method chain calls)
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:211:	Potential violation of Law of Demeter (method chain calls)
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:212:	Potential violation of Law of Demeter (method chain calls)
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:213:	Potential violation of Law of Demeter (method chain calls)
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:214:	Potential violation of Law of Demeter (method chain calls)
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:215:	Potential violation of Law of Demeter (method chain calls)
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:227:	Local variable 'btnHelp' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:230:	Avoid variables with short names like e
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:230:	Parameter 'e' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:230:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:232:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:232:	Avoid using Literals in Conditional Statements
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:233:	Local variable 'helpForDoc' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:236:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:236:	Avoid using Literals in Conditional Statements
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:237:	Local variable 'helpForDoc' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:240:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:240:	Avoid using Literals in Conditional Statements
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:241:	Local variable 'helpForDoc' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:250:	Local variable 'btnReturn' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:253:	Avoid variables with short names like e
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:253:	Parameter 'e' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:253:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/SearchPatient.java:255:	Local variable 'gurise' could be declared final
+src/com/teipir/softeng/MedicaApp/SearchPatientTest.java:1:	Package name contains upper case characters
+src/com/teipir/softeng/MedicaApp/SearchPatientTest.java:7:	Each class should declare at least one constructor
+src/com/teipir/softeng/MedicaApp/SearchPatientTest.java:7:	headerCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/SearchPatientTest.java:10:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/SearchPatientTest.java:15:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/SearchPatientTest.java:20:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/UserInfo.java:1:	Package name contains upper case characters
+src/com/teipir/softeng/MedicaApp/UserInfo.java:3:	Avoid unused imports such as 'java.sql.Connection'
+src/com/teipir/softeng/MedicaApp/UserInfo.java:5:	headerCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/UserInfo.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/teipir/softeng/MedicaApp/UserInfo.java:7:	Private field 'Username' could be made final; it is only initialized in the declaration or constructor.
+src/com/teipir/softeng/MedicaApp/UserInfo.java:7:	Variables should start with a lowercase character, 'Username' starts with uppercase character.
+src/com/teipir/softeng/MedicaApp/UserInfo.java:7:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/UserInfo.java:8:	Avoid unused private fields such as 'id'.
+src/com/teipir/softeng/MedicaApp/UserInfo.java:8:	Avoid variables with short names like id
+src/com/teipir/softeng/MedicaApp/UserInfo.java:8:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/UserInfo.java:10:	Parameter 'user' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/UserInfo.java:10:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/UserInfo.java:14:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/UserInfo.java:18:	Avoid variables with short names like db
+src/com/teipir/softeng/MedicaApp/UserInfo.java:18:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/teipir/softeng/MedicaApp/UserInfo.java:18:	To avoid mistakes add a comment at the beginning of the db field if you want a default access modifier
+src/com/teipir/softeng/MedicaApp/UserInfo.java:18:	Use explicit scoping instead of the default package private level
+src/com/teipir/softeng/MedicaApp/UserInfo.java:18:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:1:	Package name contains upper case characters
+src/com/teipir/softeng/MedicaApp/dbConnection.java:9:	Avoid unused imports such as 'com.mysql.jdbc.PreparedStatement'
+src/com/teipir/softeng/MedicaApp/dbConnection.java:11:	Class names should begin with an uppercase character
+src/com/teipir/softeng/MedicaApp/dbConnection.java:11:	Each class should declare at least one constructor
+src/com/teipir/softeng/MedicaApp/dbConnection.java:11:	headerCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:13:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:14:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:15:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:16:	Avoid using redundant field initializer for 'con'
+src/com/teipir/softeng/MedicaApp/dbConnection.java:16:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:17:	Avoid using redundant field initializer for 'stmt'
+src/com/teipir/softeng/MedicaApp/dbConnection.java:17:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:18:	Avoid using redundant field initializer for 'stmt2'
+src/com/teipir/softeng/MedicaApp/dbConnection.java:18:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:19:	Avoid using redundant field initializer for 'rs'
+src/com/teipir/softeng/MedicaApp/dbConnection.java:19:	Avoid variables with short names like rs
+src/com/teipir/softeng/MedicaApp/dbConnection.java:19:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:20:	Avoid using redundant field initializer for 'rs2'
+src/com/teipir/softeng/MedicaApp/dbConnection.java:20:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:21:	Avoid using redundant field initializer for 'pstmt'
+src/com/teipir/softeng/MedicaApp/dbConnection.java:21:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:22:	The field name indicates a constant but its modifiers do not
+src/com/teipir/softeng/MedicaApp/dbConnection.java:22:	Variables should start with a lowercase character, 'USER' starts with uppercase character.
+src/com/teipir/softeng/MedicaApp/dbConnection.java:22:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:23:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:24:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:25:	fieldCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:33:	Method names should not start with capital letters
+src/com/teipir/softeng/MedicaApp/dbConnection.java:33:	Parameter 'Password' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:33:	Parameter 'User' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:33:	Variables should start with a lowercase character, 'Password' starts with uppercase character.
+src/com/teipir/softeng/MedicaApp/dbConnection.java:33:	Variables should start with a lowercase character, 'User' starts with uppercase character.
+src/com/teipir/softeng/MedicaApp/dbConnection.java:33:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:36:	The String literal "com.mysql.jdbc.Driver" appears 4 times in this file; the first occurrence is on line 36
+src/com/teipir/softeng/MedicaApp/dbConnection.java:43:	System.out.println is used
+src/com/teipir/softeng/MedicaApp/dbConnection.java:43:	The String literal "Connection with database established!" appears 4 times in this file; the first occurrence is on line 43
+src/com/teipir/softeng/MedicaApp/dbConnection.java:48:	Avoid printStackTrace(); use a logger call instead.
+src/com/teipir/softeng/MedicaApp/dbConnection.java:52:	Local variable 'sql' could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:52:	This statement may have some unnecessary parentheses
+src/com/teipir/softeng/MedicaApp/dbConnection.java:52:	Useless parentheses.
+src/com/teipir/softeng/MedicaApp/dbConnection.java:58:	Local variable 'user1' could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:59:	Local variable 'pass' could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:60:	Avoid variables with short names like id
+src/com/teipir/softeng/MedicaApp/dbConnection.java:60:	Found 'DD'-anomaly for variable 'id' (lines '60'-'60').
+src/com/teipir/softeng/MedicaApp/dbConnection.java:60:	Found 'DU'-anomaly for variable 'id' (lines '60'-'91').
+src/com/teipir/softeng/MedicaApp/dbConnection.java:60:	Local variable 'id' could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:70:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/dbConnection.java:70:	Potential violation of Law of Demeter (object not created locally)
+src/com/teipir/softeng/MedicaApp/dbConnection.java:76:	System.out.println is used
+src/com/teipir/softeng/MedicaApp/dbConnection.java:80:	A method should have only one exit point, and that should be the last statement in the method
+src/com/teipir/softeng/MedicaApp/dbConnection.java:87:	Avoid printStackTrace(); use a logger call instead.
+src/com/teipir/softeng/MedicaApp/dbConnection.java:94:	Avoid variables with short names like tk
+src/com/teipir/softeng/MedicaApp/dbConnection.java:94:	Parameter 'address' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:94:	Parameter 'amka' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:94:	Parameter 'birthdate' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:94:	Parameter 'carrier' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:94:	Parameter 'city' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:94:	Parameter 'name' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:94:	Parameter 'phone' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:94:	Parameter 'surname' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:94:	Parameter 'tk' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:94:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/com/teipir/softeng/MedicaApp/dbConnection.java:94:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:106:	System.out.println is used
+src/com/teipir/softeng/MedicaApp/dbConnection.java:111:	Avoid printStackTrace(); use a logger call instead.
+src/com/teipir/softeng/MedicaApp/dbConnection.java:114:	Comment is too large: Line too long
+src/com/teipir/softeng/MedicaApp/dbConnection.java:117:	Local variable 'SQL' could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:117:	Variables should start with a lowercase character, 'SQL' starts with uppercase character.
+src/com/teipir/softeng/MedicaApp/dbConnection.java:140:	Avoid printStackTrace(); use a logger call instead.
+src/com/teipir/softeng/MedicaApp/dbConnection.java:146:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:150:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:156:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:163:	Avoid variables with short names like x
+src/com/teipir/softeng/MedicaApp/dbConnection.java:163:	Parameter 'x' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:163:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:164:	Found 'DD'-anomaly for variable 'sfalma' (lines '164'-'198').
+src/com/teipir/softeng/MedicaApp/dbConnection.java:176:	System.out.println is used
+src/com/teipir/softeng/MedicaApp/dbConnection.java:181:	Avoid printStackTrace(); use a logger call instead.
+src/com/teipir/softeng/MedicaApp/dbConnection.java:184:	Comment is too large: Line too long
+src/com/teipir/softeng/MedicaApp/dbConnection.java:187:	Local variable 'SQL' could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:187:	Variables should start with a lowercase character, 'SQL' starts with uppercase character.
+src/com/teipir/softeng/MedicaApp/dbConnection.java:195:	Local variable 'check' could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:198:	Found 'DD'-anomaly for variable 'sfalma' (lines '198'-'198').
+src/com/teipir/softeng/MedicaApp/dbConnection.java:210:	Avoid printStackTrace(); use a logger call instead.
+src/com/teipir/softeng/MedicaApp/dbConnection.java:212:	Avoid unnecessary if..then..else statements when returning booleans
+src/com/teipir/softeng/MedicaApp/dbConnection.java:212:	Avoid using Literals in Conditional Statements
+src/com/teipir/softeng/MedicaApp/dbConnection.java:213:	A method should have only one exit point, and that should be the last statement in the method
+src/com/teipir/softeng/MedicaApp/dbConnection.java:220:	Parameter 'amka' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:220:	Parameter 'surname' is not assigned and could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:220:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnection.java:222:	Found 'DD'-anomaly for variable 'info' (lines '222'-'246').
+src/com/teipir/softeng/MedicaApp/dbConnection.java:231:	System.out.println is used
+src/com/teipir/softeng/MedicaApp/dbConnection.java:236:	Avoid printStackTrace(); use a logger call instead.
+src/com/teipir/softeng/MedicaApp/dbConnection.java:239:	Local variable 'sql' could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnection.java:246:	Found 'DD'-anomaly for variable 'info' (lines '246'-'247').
+src/com/teipir/softeng/MedicaApp/dbConnection.java:247:	Found 'DD'-anomaly for variable 'info' (lines '247'-'248').
+src/com/teipir/softeng/MedicaApp/dbConnection.java:248:	Found 'DD'-anomaly for variable 'info' (lines '248'-'249').
+src/com/teipir/softeng/MedicaApp/dbConnection.java:249:	Found 'DD'-anomaly for variable 'info' (lines '249'-'250').
+src/com/teipir/softeng/MedicaApp/dbConnection.java:250:	Found 'DD'-anomaly for variable 'info' (lines '250'-'251').
+src/com/teipir/softeng/MedicaApp/dbConnection.java:251:	Found 'DD'-anomaly for variable 'info' (lines '251'-'252').
+src/com/teipir/softeng/MedicaApp/dbConnection.java:252:	Found 'DD'-anomaly for variable 'info' (lines '252'-'253').
+src/com/teipir/softeng/MedicaApp/dbConnection.java:253:	Found 'DD'-anomaly for variable 'info' (lines '253'-'254').
+src/com/teipir/softeng/MedicaApp/dbConnection.java:254:	Found 'DD'-anomaly for variable 'info' (lines '254'-'246').
+src/com/teipir/softeng/MedicaApp/dbConnection.java:267:	Avoid printStackTrace(); use a logger call instead.
+src/com/teipir/softeng/MedicaApp/dbConnectionTest.java:1:	Package name contains upper case characters
+src/com/teipir/softeng/MedicaApp/dbConnectionTest.java:5:	Avoid duplicate imports such as 'org.junit.Assert.assertEquals'
+src/com/teipir/softeng/MedicaApp/dbConnectionTest.java:5:	Avoid unused imports such as 'org.junit.Assert.assertEquals'
+src/com/teipir/softeng/MedicaApp/dbConnectionTest.java:6:	Avoid unused imports such as 'org.junit.AfterClass'
+src/com/teipir/softeng/MedicaApp/dbConnectionTest.java:7:	Avoid unused imports such as 'org.junit.BeforeClass'
+src/com/teipir/softeng/MedicaApp/dbConnectionTest.java:8:	Avoid duplicate imports such as 'org.junit.Test'
+src/com/teipir/softeng/MedicaApp/dbConnectionTest.java:10:	Class names should begin with an uppercase character
+src/com/teipir/softeng/MedicaApp/dbConnectionTest.java:10:	Each class should declare at least one constructor
+src/com/teipir/softeng/MedicaApp/dbConnectionTest.java:10:	headerCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnectionTest.java:13:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnectionTest.java:14:	Local variable 'tester' could be declared final
+src/com/teipir/softeng/MedicaApp/dbConnectionTest.java:26:	publicMethodCommentRequirement Required
+src/com/teipir/softeng/MedicaApp/dbConnectionTest.java:27:	Avoid unused local variables such as 'tester'.
+src/com/teipir/softeng/MedicaApp/dbConnectionTest.java:27:	Found 'DU'-anomaly for variable 'tester' (lines '27'-'29').
+src/com/teipir/softeng/MedicaApp/dbConnectionTest.java:27:	Local variable 'tester' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:1:	Comment is too large: Too many lines
+src/org/eclipse/wb/swt/SWTResourceManager.java:11:	Possible God class (WMC=52, ATFD=43, TCC=0.015151515151515152)
+src/org/eclipse/wb/swt/SWTResourceManager.java:31:	Comment is too large: Too many lines
+src/org/eclipse/wb/swt/SWTResourceManager.java:32:	Comment is too large: Line too long
+src/org/eclipse/wb/swt/SWTResourceManager.java:34:	Comment is too large: Line too long
+src/org/eclipse/wb/swt/SWTResourceManager.java:35:	Comment is too large: Line too long
+src/org/eclipse/wb/swt/SWTResourceManager.java:43:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/org/eclipse/wb/swt/SWTResourceManager.java:43:	The class 'SWTResourceManager' has a Cyclomatic Complexity of 3 (Highest = 10).
+src/org/eclipse/wb/swt/SWTResourceManager.java:49:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/org/eclipse/wb/swt/SWTResourceManager.java:49:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'm_colorMap' is not final.
+src/org/eclipse/wb/swt/SWTResourceManager.java:49:	fieldCommentRequirement Required
+src/org/eclipse/wb/swt/SWTResourceManager.java:57:	Parameter 'systemColorID' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:58:	Local variable 'display' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:59:	Potential violation of Law of Demeter (object not created locally)
+src/org/eclipse/wb/swt/SWTResourceManager.java:61:	Comment is too large: Too many lines
+src/org/eclipse/wb/swt/SWTResourceManager.java:70:	Comment is too large: Line too long
+src/org/eclipse/wb/swt/SWTResourceManager.java:72:	Avoid variables with short names like b
+src/org/eclipse/wb/swt/SWTResourceManager.java:72:	Avoid variables with short names like g
+src/org/eclipse/wb/swt/SWTResourceManager.java:72:	Avoid variables with short names like r
+src/org/eclipse/wb/swt/SWTResourceManager.java:72:	Parameter 'b' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:72:	Parameter 'g' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:72:	Parameter 'r' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:82:	Parameter 'rgb' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:85:	Local variable 'display' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:94:	Found 'UR'-anomaly for variable 'color' (lines '94'-'96').
+src/org/eclipse/wb/swt/SWTResourceManager.java:95:	Local variable 'color' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:108:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/org/eclipse/wb/swt/SWTResourceManager.java:108:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/org/eclipse/wb/swt/SWTResourceManager.java:108:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'm_imageMap' is not final.
+src/org/eclipse/wb/swt/SWTResourceManager.java:116:	Parameter 'stream' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:118:	Local variable 'display' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:119:	Local variable 'data' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:121:	A method should have only one exit point, and that should be the last statement in the method
+src/org/eclipse/wb/swt/SWTResourceManager.java:135:	Parameter 'path' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:141:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/org/eclipse/wb/swt/SWTResourceManager.java:148:	Comment is too large: Too many lines
+src/org/eclipse/wb/swt/SWTResourceManager.java:149:	Comment is too large: Line too long
+src/org/eclipse/wb/swt/SWTResourceManager.java:157:	Parameter 'clazz' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:157:	Parameter 'path' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:158:	Local variable 'key' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:164:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/org/eclipse/wb/swt/SWTResourceManager.java:171:	Avoid excessively long variable names like MISSING_IMAGE_SIZE
+src/org/eclipse/wb/swt/SWTResourceManager.java:171:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/org/eclipse/wb/swt/SWTResourceManager.java:171:	fieldCommentRequirement Required
+src/org/eclipse/wb/swt/SWTResourceManager.java:173:	Comment is too large: Line too long
+src/org/eclipse/wb/swt/SWTResourceManager.java:176:	Local variable 'image' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:178:	Avoid variables with short names like gc
+src/org/eclipse/wb/swt/SWTResourceManager.java:178:	Local variable 'gc' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:188:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/org/eclipse/wb/swt/SWTResourceManager.java:192:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/org/eclipse/wb/swt/SWTResourceManager.java:196:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/org/eclipse/wb/swt/SWTResourceManager.java:198:	Comment is too large: Line too long
+src/org/eclipse/wb/swt/SWTResourceManager.java:200:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/org/eclipse/wb/swt/SWTResourceManager.java:204:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/org/eclipse/wb/swt/SWTResourceManager.java:209:	Avoid excessively long variable names like m_decoratedImageMap
+src/org/eclipse/wb/swt/SWTResourceManager.java:209:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/org/eclipse/wb/swt/SWTResourceManager.java:209:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/org/eclipse/wb/swt/SWTResourceManager.java:209:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'm_decoratedImageMap' is not final.
+src/org/eclipse/wb/swt/SWTResourceManager.java:210:	Comment is too large: Too many lines
+src/org/eclipse/wb/swt/SWTResourceManager.java:219:	Parameter 'baseImage' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:219:	Parameter 'decorator' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:222:	Comment is too large: Too many lines
+src/org/eclipse/wb/swt/SWTResourceManager.java:233:	The method 'decorateImage' has a Cyclomatic Complexity of 10.
+src/org/eclipse/wb/swt/SWTResourceManager.java:237:	Avoid excessively long variable names like cornerDecoratedImageMap
+src/org/eclipse/wb/swt/SWTResourceManager.java:250:	Local variable 'bib' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:251:	Found 'DU'-anomaly for variable 'dib' (lines '251'-'271').
+src/org/eclipse/wb/swt/SWTResourceManager.java:251:	Local variable 'dib' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:255:	Avoid variables with short names like gc
+src/org/eclipse/wb/swt/SWTResourceManager.java:255:	Local variable 'gc' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:275:	Found 'UR'-anomaly for variable 'decoratedMap' (lines '275'-'288').
+src/org/eclipse/wb/swt/SWTResourceManager.java:275:	Found 'UR'-anomaly for variable 'image' (lines '275'-'279').
+src/org/eclipse/wb/swt/SWTResourceManager.java:278:	Local variable 'image' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:285:	Avoid excessively long variable names like cornerDecoratedImageMap
+src/org/eclipse/wb/swt/SWTResourceManager.java:285:	Local variable 'cornerDecoratedImageMap' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:287:	Local variable 'decoratedMap' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:287:	Potential violation of Law of Demeter (object not created locally)
+src/org/eclipse/wb/swt/SWTResourceManager.java:288:	Local variable 'image' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:293:	Potential violation of Law of Demeter (object not created locally)
+src/org/eclipse/wb/swt/SWTResourceManager.java:305:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/org/eclipse/wb/swt/SWTResourceManager.java:305:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/org/eclipse/wb/swt/SWTResourceManager.java:305:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'm_fontMap' is not final.
+src/org/eclipse/wb/swt/SWTResourceManager.java:309:	Avoid excessively long variable names like m_fontToBoldFontMap
+src/org/eclipse/wb/swt/SWTResourceManager.java:309:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/org/eclipse/wb/swt/SWTResourceManager.java:309:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/org/eclipse/wb/swt/SWTResourceManager.java:309:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'm_fontToBoldFontMap' is not final.
+src/org/eclipse/wb/swt/SWTResourceManager.java:310:	Comment is too large: Too many lines
+src/org/eclipse/wb/swt/SWTResourceManager.java:321:	Parameter 'height' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:321:	Parameter 'name' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:321:	Parameter 'style' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:324:	Comment is too large: Too many lines
+src/org/eclipse/wb/swt/SWTResourceManager.java:325:	Comment is too large: Line too long
+src/org/eclipse/wb/swt/SWTResourceManager.java:338:	Comment is too large: Line too long
+src/org/eclipse/wb/swt/SWTResourceManager.java:340:	Parameter 'name' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:340:	Parameter 'size' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:340:	Parameter 'strikeout' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:340:	Parameter 'style' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:340:	Parameter 'underline' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:341:	Local variable 'fontName' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:344:	Local variable 'fontData' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:347:	Local variable 'logFontClass' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:348:	Local variable 'logFont' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:348:	Potential violation of Law of Demeter (method chain calls)
+src/org/eclipse/wb/swt/SWTResourceManager.java:348:	Potential violation of Law of Demeter (method chain calls)
+src/org/eclipse/wb/swt/SWTResourceManager.java:351:	Potential violation of Law of Demeter (method chain calls)
+src/org/eclipse/wb/swt/SWTResourceManager.java:351:	Potential violation of Law of Demeter (object not created locally)
+src/org/eclipse/wb/swt/SWTResourceManager.java:354:	Potential violation of Law of Demeter (method chain calls)
+src/org/eclipse/wb/swt/SWTResourceManager.java:354:	Potential violation of Law of Demeter (object not created locally)
+src/org/eclipse/wb/swt/SWTResourceManager.java:357:	A catch statement should never catch throwable since it includes errors.
+src/org/eclipse/wb/swt/SWTResourceManager.java:358:	System.err.println is used
+src/org/eclipse/wb/swt/SWTResourceManager.java:373:	Parameter 'baseFont' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:376:	Local variable 'fontDatas' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:377:	Local variable 'data' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:378:	Potential violation of Law of Demeter (object not created locally)
+src/org/eclipse/wb/swt/SWTResourceManager.java:378:	Potential violation of Law of Demeter (object not created locally)
+src/org/eclipse/wb/swt/SWTResourceManager.java:386:	Found 'UR'-anomaly for variable 'font' (lines '386'-'389').
+src/org/eclipse/wb/swt/SWTResourceManager.java:388:	Local variable 'font' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:393:	Local variable 'font' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:406:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/org/eclipse/wb/swt/SWTResourceManager.java:406:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/org/eclipse/wb/swt/SWTResourceManager.java:406:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'm_idToCursorMap' is not final.
+src/org/eclipse/wb/swt/SWTResourceManager.java:414:	Avoid variables with short names like id
+src/org/eclipse/wb/swt/SWTResourceManager.java:414:	Parameter 'id' is not assigned and could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:415:	Local variable 'key' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:426:	Found 'UR'-anomaly for variable 'cursor' (lines '426'-'428').
+src/org/eclipse/wb/swt/SWTResourceManager.java:427:	Local variable 'cursor' could be declared final
+src/org/eclipse/wb/swt/SWTResourceManager.java:438:	Comment is too large: Line too long

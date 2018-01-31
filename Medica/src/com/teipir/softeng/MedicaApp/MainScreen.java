@@ -14,8 +14,12 @@ import org.eclipse.wb.swt.SWTResourceManager;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 
+
+
 public class MainScreen {
 
+	
+	private int id;
 	protected Shell shlMedica;
 
 	/**
@@ -23,19 +27,20 @@ public class MainScreen {
 	 * @param args
 	 * @wbp.parser.entryPoint
 	 */
-	public void Anoikse() {
+	public int Anoikse() {
 		try {
 			MainScreen window = new MainScreen();
 			window.open();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		return 1;
 	}
 
 	/**
 	 * Open the window.
 	 */
-	public void open() {
+	public int open() {
 		Display display = Display.getDefault();
 		createContents();
 		shlMedica.open();
@@ -45,17 +50,21 @@ public class MainScreen {
 				display.sleep();
 			}
 		}
+		
+		return 1;
 	}
 
 	/**
 	 * Create contents of the window.
 	 */
-	protected void createContents() {
+	protected int createContents() {
 		shlMedica = new Shell();
 		shlMedica.setBackground(SWTResourceManager.getColor(SWT.COLOR_TITLE_BACKGROUND_GRADIENT));
 		shlMedica.setImage(SWTResourceManager.getImage("D:\\Desktop\\Finalworkspace\\Medica\\src\\images\\medicaLogo.jpg"));
 		shlMedica.setSize(601, 501);
 		shlMedica.setText("Medica");
+		dbConnection db = new dbConnection();
+		id = db.getId();
 		
 		Label lblUser = new Label(shlMedica, SWT.NONE);
 		lblUser.setBackground(SWTResourceManager.getColor(SWT.COLOR_TITLE_BACKGROUND_GRADIENT));
@@ -88,6 +97,11 @@ public class MainScreen {
 		btnSearch.setText("\u0391\u03BD\u03B1\u03B6\u03AE\u03C4\u03B7\u03C3\u03B7 \u0391\u03C3\u03B8\u03B5\u03BD\u03AE");
 		
 		Button btnRegister = new Button(shlMedica, SWT.NONE);
+		if(id != 3) {
+			
+			btnRegister.setVisible(false);
+			
+		}
 		btnRegister.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
@@ -100,6 +114,25 @@ public class MainScreen {
 		
 		
 		Button btnHelp = new Button(shlMedica, SWT.NONE);
+		btnHelp.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				
+				if(id==1) {
+					DoctorHelp helpForDoc = new DoctorHelp();
+					helpForDoc.open();
+					
+				}else if(id==2) {
+					NurseHelp helpForDoc = new NurseHelp();
+					helpForDoc.open();
+					
+				}else if(id==3) {
+					BureauHelp helpForDoc = new BureauHelp();
+					helpForDoc.open();
+				}
+				
+			}
+		});
 		btnHelp.setBounds(10, 427, 66, 25);
 		btnHelp.setText("Help");
 		
@@ -130,8 +163,11 @@ public class MainScreen {
 		dateLbl.setText("\u0397\u03BC/\u03BD\u03AF\u03B1: "+ date);
 		
 		Label label = new Label(shlMedica, SWT.NONE);
-		label.setImage(SWTResourceManager.getImage("D:\\Desktop\\Finalworkspace\\Medica\\src\\images\\medicaLogoScaled.jpg"));
+		label.setImage(SWTResourceManager.getImage(MainScreen.class, "/images/medicaLogoScaled.jpg"));
 		label.setBounds(179, 106, 203, 199);
 		
+		return 1;
 	}
+	
+	
 }
